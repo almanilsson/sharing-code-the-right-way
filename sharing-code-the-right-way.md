@@ -22,22 +22,8 @@ Many researchers hesitate to share their code because they feel it’s “not go
 
 Start by looking through your repository and going over the [Open Software Checklist](https://github.com/ScilifelabDataCentre/open-science-checklists/blob/main/open_software_checklist.md) point by point. Note which items are fully, partially, or not at all fulfilled. Based on what we’ve discussed ([Presentation PDF](OBS_ADD_LINK!!)) about *why* and *how* to do open source, identify the areas that could affect the openness or FAIRness of your code.
 TODO:Alma, link the presentation here - should also live in this repo.
-TODO: Is this really how we want them to go about it?
 
-Write them down! And remember that not every checklist point will apply to your repository. For example, modular code might not be relevant if you’re only saharing a few workflows, and software testing isn’t crucial if you’ve only got a single preprocessing script. So don’t worry if many boxes stay unchecked.
-
-You’ll find a filled in version of the [Open Software Checklist](https://github.com/ScilifelabDataCentre/open-science-checklists/blob/main/open_software_checklist.md) in the example repo. We’ve also included a few notes on missing or improvable points here. Once you’ve gone through your own (or the example) repo, check them out. Did you spot the same issues?
-
-<details>
-<summary>Repo improvement points</summary>
-
-1. item
-2. item
-3. item
-
-</details>
-
-
+Write them down! And remember that not every checklist point will apply to your repository. For example, modular code might not be relevant if you’re only sharing a few workflows, and software testing isn’t crucial if you’ve only got a single preprocessing script. So don’t worry if many boxes stay unchecked.
 
 ## Task 2: Solve Problems
 
