@@ -28,9 +28,11 @@ Write them down! And remember that not every checklist point will apply to your 
 ## Task 2: Solve Problems
 
 These notes will form the basis of what we’ll be working on. Since the checklist can be a little too general and hard to understand, we’ll break each point down into:
-**what needs to be addressed | what issue it causes | how to solve it.**
+1. What needs to be addressed 
+1. What issue it causes 
+1. How to solve it
 
-Now let’s go through the checklist points one by one, in order of priority (according to me), and fix them. Please note that the provided solutions are not the only options, but have been made simple and direct so you can just get them done.
+Now let’s go through the checklist points one by one, in order of priority (according to me), and fix them. Please note that the provided solutions are not the only options, but have been made simple and direct so you can get them done quickly.
 
 ### Host Code in a Public Version-Controlled Repository/ The code isnt public or version controlled 
 
