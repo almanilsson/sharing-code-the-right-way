@@ -38,6 +38,7 @@ Since the checklist can be a little too general and hard to understand, we’ll 
 **What issue it causes** 
 **How to solve it**
 
+`<Link to the Git commit solving the issue in the messy repository>`
 
 ### 2.1 Highest priority points
 
@@ -56,6 +57,8 @@ If your code isn’t in a public repository that records version history, you ca
 **How to solve it**
 Upload your code to a public version-controlled platform like GitHub.
 
+[Git commit implementing this change](https://github.com/almanilsson/ook-translator-v0/tree/e7c0901019a7eb890e974f9b115db8222ab6ef74) 
+
 
 #### 2.1.2 Choose an Open-Source Licence 
 > **Choose an Open-Source Licence:** Select an appropriate licence ([MIT License](https://choosealicense.com/licenses/mit/), [Apache License](https://choosealicense.com/licenses/apache-2.0/), or [GPL License](https://choosealicense.com/licenses/gpl-3.0/)), e.g., using [Choose a License](https://choosealicense.com/). If your repository also contains non-software content (e.g., website text or documentation), consider adding a separate licence for that, such as [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Note that code or content without a licence can not legally be reused, even if it is publicly available.
@@ -71,6 +74,8 @@ Add a `LICENSE` file to your repository. Use a permissive licence such as the MI
 
 If your repo includes other materials like text or figures, add a separate licence for those, for example, *CC BY 4.0*. If you mix different types (code, data, text), list each licence clearly in your `README` and specify what applies to what.
 
+[Git commit implementing this change](http://github.com/almanilsson/ook-translator-v0/tree/383408cfc6771354948fe869f777a3122cee9f80) 
+
 #### 2.1.3 Write a Structured README
 
 > **Write a Structured README:** Create a machine-readable `README.md` (e.g. using [readme.so](https://readme.so/)) with installation instructions, usage examples, required prerequisites, contribution guidelines, and licence information. Machine-readable means structured in a way that allows automated tools to identify and extract information, for the README for example by using plain text Markdown section titles.
@@ -85,6 +90,7 @@ Without a structured README, it is hard to understand what the code does, how to
 Add a `README.md` file to the repository. Include at least a title and description, and the sections "Installation", "Licence" and "Citing this resource". 
 You can create the file by clicking pre-made sections in [readme.so](https://readme.so/) and filling in the relevant information.
 
+[Git commit implementing this change](https://github.com/almanilsson/ook-translator-v0/tree/4265ec23904461ed4faa7a8402b3bc94c1af7ec0) 
 
 ### 2.2 Additional points
 
@@ -103,6 +109,8 @@ Without a persistent identifier, references/links to the code may change or brea
 **How to solve it**
 Upload your code to Zenodo (by integrating Zenodo with your GitHub repository or by uploading manually) or another archive that gives it a DOI.
 Follow the steps to upload your code here: https://help.zenodo.org/docs/github/
+
+
 
 #### Provide Descriptive Metadata
 
