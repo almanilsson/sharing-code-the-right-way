@@ -39,9 +39,9 @@ Since the checklist can be a little too general and hard to understand, we’ll 
 **How to solve it**
 
 
-### Highest priority points
+### 2.1 Highest priority points
 
-#### Host Code in a Public Version-Controlled Repository/ The code isnt public or version controlled 
+#### 2.1.1 Host Code in a Public Version-Controlled Repository/ The code isnt public or version controlled 
 
 > **Host Code in a Public Version-Controlled Repository:** Host your code on platforms like GitHub, GitLab, or CodeBerg to track development history, enable tagged versioned releases, improve reusability, and support collaboration.
 
@@ -57,7 +57,7 @@ If your code isn’t in a public repository that records version history, you ca
 Upload your code to a public version-controlled platform like GitHub.
 
 
-#### Choose an Open-Source Licence 
+#### 2.1.2 Choose an Open-Source Licence 
 > **Choose an Open-Source Licence:** Select an appropriate licence ([MIT License](https://choosealicense.com/licenses/mit/), [Apache License](https://choosealicense.com/licenses/apache-2.0/), or [GPL License](https://choosealicense.com/licenses/gpl-3.0/)), e.g., using [Choose a License](https://choosealicense.com/). If your repository also contains non-software content (e.g., website text or documentation), consider adding a separate licence for that, such as [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Note that code or content without a licence can not legally be reused, even if it is publicly available.
 
 **What needs to be addressed**
@@ -71,7 +71,7 @@ Add a `LICENSE` file to your repository. Use a permissive licence such as the MI
 
 If your repo includes other materials like text or figures, add a separate licence for those, for example, *CC BY 4.0*. If you mix different types (code, data, text), list each licence clearly in your `README` and specify what applies to what.
 
-#### Write a Structured README
+#### 2.1.3 Write a Structured README
 
 > **Write a Structured README:** Create a machine-readable `README.md` (e.g. using [readme.so](https://readme.so/)) with installation instructions, usage examples, required prerequisites, contribution guidelines, and licence information. Machine-readable means structured in a way that allows automated tools to identify and extract information, for the README for example by using plain text Markdown section titles.
 
@@ -86,7 +86,7 @@ Add a `README.md` file to the repository. Include at least a title and descripti
 You can create the file by clicking pre-made sections in [readme.so](https://readme.so/) and filling in the relevant information.
 
 
-### Additional points
+### 2.2 Additional points
 
 #### Title 
 
