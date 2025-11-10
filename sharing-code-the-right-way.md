@@ -275,7 +275,7 @@ Users may assume the software is actively maintained and safe to build upon or i
 **How to solve it**
 Decide and communicate (for example, in the `README.md`) whether the code will be maintained. If it will be, specify who is responsible and how maintenance will be handled.
 
-#### Structure Your Code for Reuse (Bonus BETA point)
+#### Structure Your Code for Reuse (Bonus point - not yet in checklist)
 
 TODO: perhaps not include?
 > **Structure Your Code for Reuse:** Organise your software in a logical, modular way with well-defined user interaction (for example, a CLI), so it can be easily reused or extended, for example in a pipeline. This can be done by creating a package, module, or library depending on your programming language.
