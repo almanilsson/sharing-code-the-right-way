@@ -94,7 +94,7 @@ You can create the file by clicking pre-made sections in [readme.so](https://rea
 
 ### 2.2 Additional points
 
-#### Archive and Assign a Persistent Identifier
+#### 2.2.1 Archive and Assign a Persistent Identifier
 
 > **Archive and Assign a Persistent Identifier:**  Ensure long-term preservation by depositing a snapshot of a specific software release (e.g., v1.0.0) in repositories that assign a PID such as [Zenodo](https://zenodo.org/), [Software Heritage](https://www.softwareheritage.org/), or your local institutional repository (e.g., [SciLifeLab Data Repository](https://figshare.scilifelab.se/)). This complements hosting code in a public repository by providing a fixed reference that can be cited in publications and matched to data and results.
 
@@ -112,7 +112,7 @@ Follow the steps to upload your code here: https://help.zenodo.org/docs/github/
 
 
 
-#### Provide Descriptive Metadata
+#### 2.2.2 Provide Descriptive Metadata
 
 > **Provide Descriptive Metadata:** Include essential details such as title, authors, version, licence, DOI and keywords. This can be done in a `CITATION.cff` file. For more extensive metadata, you can also create a `codemeta.json` file using tools like the [CodeMeta generator](https://codemeta.github.io/codemeta-generator/), which can then be added to public and preservation repositories (e.g. GitHub, Zenodo). One such file can be seen [here](https://github.com/cboettig/codemeta/blob/master/codemeta.json). Optionally, include a contributors table in your `README.md` (e.g., [The Turing Way's Contributors Table](https://book.the-turing-way.org/community-handbook/acknowledgement/acknowledgement-record)), or frameworks like [All Contributors](https://allcontributors.org/) to make roles and credit visible.
 
@@ -125,7 +125,7 @@ Without clear metadata, the code is harder to find, cite and connect to related 
 **How to solve it**
 Add a `CITATION.cff` file including title, authors, version, licence, (DOI, if available) and keywords.
 
-#### Use Package Managers (and Manage Them Wisely): 
+#### 2.2.3 Use Package Managers (and Manage Them Wisely): 
 
 > **Use Package Managers:** Specify dependencies via [package managers](https://en.wikipedia.org/wiki/List_of_software_package_management_systems) (e.g., pip, npm, mamba) for better compatibility and reproducibility. Include a dependency file (e.g. `requirements.txt`, `environment.yml`, or `package.json`) to allow others to easily install the necessary packages. Consider adding a lock file to ensure exact versions are used across environments.
 
@@ -142,7 +142,7 @@ Without a defined dependencies others can not easily use your code (and outdated
 **How to solve it**
 List all required dependencies in a file such as `requirements.txt` or `environment.yml`. Preferably also specify version ranges (e.g. `wordfreq>=3.0,<4.0`).
 
-#### Use Descriptive Names 
+#### 2.2.4 Use Descriptive Names 
 
 > **Use Descriptive Names:** Choose consistent and descriptive names for variables, functions to make code easy to read and understand. See [The Turing Way Guidelines for Code Styling](https://book.the-turing-way.org/project-design/info-management/code-styling/code-styling-guidelines) 
 
@@ -156,7 +156,7 @@ Unclear naming makes the code harder to read, understand, and maintain. Both for
 Use short but descriptive names that reflect what the variable or function does. Follow a consistent naming style (for example, `snake_case` in Python or `camelCase` in JavaScript) throughout the code.
 
 
-#### Write Clear Documentation 
+#### 2.2.5 Write Clear Documentation 
 
 > **Write Clear Documentation:** Provide concise instructions, usage examples, and inline comments to help others understand and use the code. See [CodeRefinerys Modular Code Development lesson](https://cicero.xyz/v3/remark/0.14.0/github.com/coderefinery/modular-code-development/master/talk.md/#1) for more information.
 
@@ -170,7 +170,7 @@ Others may be unable to understand or built upon the code. It also makes it hard
 Add concise instructions and usage examples in your `README.md`, or for larger projects, create full documentation (e.g. a GitHub Pages or ReadTheDocs site). Write short, but informative, inline comments explaining what each part of the code does.
 
 
-#### Include Example Use Cases 
+#### 2.2.6 Include Example Use Cases 
 
 >  **Include Example Use Cases:** Provide example use cases via sample scripts or [Jupyter notebooks](https://jupyter.org/) (see [notebook guidance](https://zenodo.org/records/5651648) on documenting your workflow). Include small example datasets with your software to ensure others can test and reproduce your results. If including data in the repository is not feasible (e.g. due to size limits or policies), share it via platforms like [Zenodo](https://zenodo.org/) or reuse existing publicly available datasets.
 
@@ -183,7 +183,7 @@ Without clear examples others may not understand how to runthe code, or what for
 **How to solve it**
 Add a small example dataset, and a short script, description in the README or a Jupyter notebook that demonstrates how to use the code, and on what type of data. Include expected results for the user to compare to.
 
-#### Follow Code Formatting Standards 
+#### 2.2.7 Follow Code Formatting Standards 
 
 > **Follow Code Formatting Standards:** Use recognised open standards, style guides, linters, and formatters to keep code clean and consistent. Common examples include Black and Pylint (Python). See the [Netherlands eScience Center Guide](https://guide.esciencecenter.nl/#/) for language-specific examples and [The Turing Way’s overview of static analysis tools](https://book.the-turing-way.org/reproducible-research/code-quality) for formatter options.
 
@@ -197,7 +197,7 @@ Inconsistent formatting makes the code harder to read, and increases the chance 
 **How to solve it**
 Look up and follow the standard formatting guide for your programming language, or install a linter to apply it automatically (for example, using the guide linked above).
 
-#### Use Issue Tracking & Discussionss 
+#### 2.2.8 Use Issue Tracking & Discussionss 
 
 > **Use Issue Tracking & Discussions:** Enable GitHub Issues, forums, or mailing lists to gather community feedback and improve software. Consider building a backlog with clearly identified “Starter Issues” to help new contributors find small, manageable issues to start on.
 
@@ -209,7 +209,7 @@ Look up and follow the standard formatting guide for your programming language, 
 
 **How to solve it**
 
-#### Set Up Contributing Guidelines 
+#### 2.2.9 Set Up Contributing Guidelines 
 
 > **Set Up Contributing Guidelines:** Create a `CONTRIBUTING.md` file to guide community contributions. Credit them according to “Ensure Proper Credit” above.
 
@@ -223,7 +223,7 @@ People who want to report an issue or contribute may not know how to do so which
 Add a `CONTRIBUTING.md` file that covers how to suggest changes, open issues, and submit pull requests (and if you want that at all). It can also include information on coding style, the review process and how (if) contributors will be credited.
 
 
-#### Write Modular Code 
+#### 2.2.10 Write Modular Code 
 
 > **Write Modular Code:** Logically break up code into functions and modules to make it easier to read, avoid repetition, simplify testing, and improve long-term maintainability. Avoid hardcoding details like file paths or settings by passing them as inputs instead. See [The Turing Ways Detailed Recommendations for Code Reuse](https://book.the-turing-way.org/reproducible-research/code-reuse/code-reuse-details#re-runnable-recommendations) for more information.
 
@@ -236,7 +236,7 @@ Long and unstructured code blocks are hard to read, test and rework. They may be
 **How to solve it**
 Split the code into smaller, non-repetative, parts and call them as functions. Pass (and define well) inputs like file paths or settings as arguments instead of hardcoding them.
 
-#### Define Input/Output Schemas 
+#### 2.2.11 Define Input/Output Schemas 
 
 > **Define Input/Output Schemas:** Use formats like [JSON Schema](https://json-schema.org/) to clearly describe the structure of your software’s inputs and outputs.
 
@@ -249,7 +249,7 @@ It becomes unclear what the code expects, returns and how to adapt it to new dat
 **How to solve it**
 Define expected inputs and outputs (the type, what it is used for and what it contains) in each functions docstring and describe their structure in your documentation. Formally describe input and output data, for example using JSON schema. 
 
-#### Implement and Automate Software Testing 
+#### 2.2.12 Implement and Automate Software Testing 
 
 > **Implement and Automate Software Testing:** Include unit tests and integration tests so the software continues to work as intended over time, using frameworks like [PyTest](https://docs.pytest.org/en/stable/), [Jest](https://jestjs.io/), or [Mocha](https://mochajs.org/). Use CI/CD tools like GitHub Actions and GitLab CI to streamline testing and deployment.
 
@@ -262,7 +262,7 @@ When changes are made, new errors can go unnoticed and it is hard to confirm tha
 **How to solve it**
 Add simple unit tests for key functions using a testing framework such as PyTest. Preferably, set up automated testing with GitHub Actions so tests run automatically when the code is updated and notifies you if something is wrong.
 
-#### Define Governance for Long-Term Maintenance 
+#### 2.2.13 Define Governance for Long-Term Maintenance 
 
 > **Define Governance for Long-Term Maintenance:** Outline roles, responsibilities, and decision-making processes for sustaining your software project over time.
 
@@ -275,7 +275,7 @@ Users may assume the software is actively maintained and safe to build upon or i
 **How to solve it**
 Decide and communicate (for example, in the `README.md`) whether the code will be maintained. If it will be, specify who is responsible and how maintenance will be handled.
 
-#### Structure Your Code for Reuse (Bonus point - not yet in checklist)
+#### 2.2.14 Structure Your Code for Reuse (Bonus point - not yet in checklist)
 
 TODO: perhaps not include?
 > **Structure Your Code for Reuse:** Organise your software in a logical, modular way with well-defined user interaction (for example, a CLI), so it can be easily reused or extended, for example in a pipeline. This can be done by creating a package, module, or library depending on your programming language.
@@ -289,7 +289,7 @@ The software may be harder to integrate into other workflows or pipelines. Users
 **How to solve it**
 Organise the code into logical modules or functions and define a clear way for users to interact with it, such as a command line interface or callable functions.
 
-#### Use a Clear Versioning Scheme 
+#### 2.2.15 Use a Clear Versioning Scheme 
 
 > **Use a Clear Versioning Scheme:** Label official releases of software using a consistent versioning system, such as [Semantic Versioning (SemVer)](https://semver.org/) (`major.minor.patch`), tagging the exact commit related to each release. This makes each version unambiguously citable and reusable.
 
@@ -303,7 +303,7 @@ Users can not tell which version of the software they are using or citing. This 
 Use a clear versioning system such as Semantic Versioning (major.minor.patch). Tag each release (via command line or the GitHub interface) in your repository.
 
 
-#### Establish a Code of Conduct 
+#### 2.2.16 Establish a Code of Conduct 
 
 > **Establish a Code of Conduct:** Define expectations for community interactions using a `CODE_OF_CONDUCT.md` file (e.g., [Contributor Covenant](https://www.contributor-covenant.org/)), and include a contact method for reporting violations.
 
@@ -316,7 +316,7 @@ Misunderstandings or conflicts may arise, and contributors may feel unsure how t
 **How to solve it**
 Add a `CODE_OF_CONDUCT.md` file using a standard template such as the [Contributor Covenant](https://www.contributor-covenant.org/). Include a contact email or form for reporting violations or concerns.
 
-#### Add Repository Badges 
+#### 2.2.17 Add Repository Badges 
 
 >  **Add Repository Badges:** Include badges for citation (e.g., Zenodo DOI), licence, build status, and community standards. You can create and customise badges via [shields.io](https://shields.io/).
 
@@ -329,7 +329,7 @@ Users can not see key information quickly which might lead to, for example, less
 **How to solve it**
 Create and customise badges using shields.io or get them from the platforms they represent (GitHub Actions, Zenodo, or licence metadata). Add them as linked images to your `README.md`.
 
-#### Containerise Your Software 
+#### 2.2.18 Containerise Your Software 
 
 > **Containerise Your Software:** Provide instructions to create consistent, portable environments using [Docker](https://www.docker.com/) or [Singularity](https://github.com/apptainer/singularity), by including a Dockerfile or equivalent build instructions. This improves transparency and ensures your software runs reliably across different systems, thus enhancing reproducibility and simplifying deployment.
 
