@@ -57,7 +57,7 @@ If your code isn’t in a public repository that records version history, you ca
 **How to solve it**
 Upload your code to a public version-controlled platform like GitHub.
 
-[State of repository after implementing this change](https://github.com/almanilsson/ook-translator-v0/tree/e7c0901019a7eb890e974f9b115db8222ab6ef74) 
+[State of example repository after implementing this change](https://github.com/almanilsson/ook-translator-v0/tree/e7c0901019a7eb890e974f9b115db8222ab6ef74) 
 
 
 #### 2.1.2 Choose an Open-Source Licence 
@@ -74,7 +74,7 @@ Add a `LICENSE` file to your repository. Use a permissive licence such as the MI
 
 If your repo includes other materials like text or figures, add a separate licence for those, for example, *CC BY 4.0*. If you mix different types (code, data, text), list each licence clearly in your `README` and specify what applies to what.
 
-[State of repository after implementing this change](http://github.com/almanilsson/ook-translator-v0/tree/383408cfc6771354948fe869f777a3122cee9f80) 
+[State of example repository after implementing this change](http://github.com/almanilsson/ook-translator-v0/tree/383408cfc6771354948fe869f777a3122cee9f80) 
 
 #### 2.1.3 Write a Structured README
 
@@ -90,7 +90,7 @@ Without a structured README, it is hard to understand what the code does, how to
 Add a `README.md` file to the repository. Include at least a title and description, and the sections "Installation", "Licence" and "Citing this resource". 
 You can create the file by clicking pre-made sections in [readme.so](https://readme.so/) and filling in the relevant information.
 
-[State of repository after implementing this change](https://github.com/almanilsson/ook-translator-v0/tree/4265ec23904461ed4faa7a8402b3bc94c1af7ec0) 
+[State of example repository after implementing this change](https://github.com/almanilsson/ook-translator-v0/tree/4265ec23904461ed4faa7a8402b3bc94c1af7ec0) 
 
 ### 2.2 Additional points
 
@@ -124,7 +124,7 @@ Without clear metadata, the code is harder to find, cite and connect to related 
 **How to solve it**
 Add a `CITATION.cff` file including title, authors, version, licence, (DOI, if available) and keywords.
 
-[State of repository after implementing this change](https://github.com/almanilsson/ook-translator-v0/tree/abe0b3dad154fdb6a29a9ffe84f40a8dc8c2ca8c) 
+[State of example repository after implementing this change](https://github.com/almanilsson/ook-translator-v0/tree/abe0b3dad154fdb6a29a9ffe84f40a8dc8c2ca8c) 
 
 #### 2.2.3 Use Package Managers (and Manage Them Wisely): 
 
@@ -143,7 +143,7 @@ Without a defined dependencies others can not easily use your code (and outdated
 **How to solve it**
 List all required dependencies in a file such as `requirements.txt` or `environment.yml` (this can be generated automatically wit pipreqs, pip freeze or poetry). Preferably also specify version ranges (e.g. `wordfreq>=3.0,<4.0`).
 
-[State of repository after implementing this change](https://github.com/almanilsson/ook-translator-v0/tree/b7d7d50c8c0f6e5adc0ce0610f6645c7460690d8)
+[State of example repository after implementing this change](https://github.com/almanilsson/ook-translator-v0/tree/b7d7d50c8c0f6e5adc0ce0610f6645c7460690d8)
 
 #### 2.2.4 Use Descriptive Names 
 
@@ -158,7 +158,7 @@ Unclear naming makes the code harder to read, understand, and maintain. Both for
 **How to solve it**
 Use short but descriptive names that reflect what the variable or function does. Follow a consistent naming style (for example, `snake_case` in Python or `camelCase` in JavaScript) throughout the code.
 
-[State of repository after implementing this change](https://github.com/almanilsson/ook-translator-v0/tree/759d111a7d532d4eeb2eaa2ee9a7dfa47bfcf79b)
+[State of example repository after implementing this change](https://github.com/almanilsson/ook-translator-v0/tree/759d111a7d532d4eeb2eaa2ee9a7dfa47bfcf79b)
 
 #### 2.2.5 Write Clear Documentation 
 
@@ -173,7 +173,7 @@ Others may be unable to understand or built upon the code. It also makes it hard
 **How to solve it**
 Add concise instructions and usage examples in your `README.md`, or for larger projects, create full documentation (e.g. a GitHub Pages or ReadTheDocs site). Write short, but informative, inline comments explaining what each part of the code does. Write docstrings for all functions and files. 
 
-[State of repository after implementing this change](https://github.com/almanilsson/ook-translator-v0/tree/0ce18a8d2324cce263d9f64fee8210a8c895b4e3)
+[State of example repository after implementing this change](https://github.com/almanilsson/ook-translator-v0/tree/0ce18a8d2324cce263d9f64fee8210a8c895b4e3)
 
 #### 2.2.6 Include Example Use Cases 
 
@@ -188,7 +188,7 @@ Without clear examples others may not understand how to runthe code, or what for
 **How to solve it**
 Add a small example dataset, and a short script, description in the README or a Jupyter notebook that demonstrates how to use the code, and on what type of data. Include expected results for the user to compare to.
 
-[State of repository after implementing this change](https://github.com/almanilsson/ook-translator-v0/tree/0d71e3ff882f22d726f70e8e42c28fae1db6e892)
+[State of example repository after implementing this change](https://github.com/almanilsson/ook-translator-v0/tree/0d71e3ff882f22d726f70e8e42c28fae1db6e892)
 
 
 #### 2.2.7 Follow Code Formatting Standards 
@@ -206,7 +206,7 @@ Inconsistent formatting makes the code harder to read, and increases the chance 
 **How to solve it**
 Look up and follow the standard formatting guide for your programming language, or install a linter to apply it automatically (for example, using the guide linked above).
 
-[State of repository after implementing this change](https://github.com/almanilsson/ook-translator-v0/tree/8dfd2abbbdb37ae1229fde13ca7b02870724f01b)
+[State of example repository after implementing this change](https://github.com/almanilsson/ook-translator-v0/tree/8dfd2abbbdb37ae1229fde13ca7b02870724f01b)
 
 #### 2.2.8 Use Issue Tracking & Discussions 
 
@@ -236,7 +236,7 @@ People who want to report an issue or contribute may not know how to do so which
 **How to solve it**
 Add a `CONTRIBUTING.md` file that covers how to suggest changes, open issues, and submit pull requests (and if you want that at all). It can also include information on coding style, the review process and how (if) contributors will be credited.
 
-[State of repository after implementing this change](https://github.com/almanilsson/ook-translator-v0/tree/4fcf56c88a09b944c0bb7888bbb06d25998a4894)
+[State of example repository after implementing this change](https://github.com/almanilsson/ook-translator-v0/tree/4fcf56c88a09b944c0bb7888bbb06d25998a4894)
 
 #### 2.2.10 Write Modular Code 
 
@@ -251,7 +251,7 @@ Long and unstructured code blocks are hard to read, test and rework. They may be
 **How to solve it**
 Split the code into smaller, non-repetative, parts and call them as functions. Pass (and define well) inputs like file paths or settings as arguments instead of hardcoding them.
 
-[State of repository after implementing this change](https://github.com/almanilsson/ook-translator-v0/tree/2af64d64ef6ce975b4e4bc0b3feeabbc4126aad4)
+[State of example repository after implementing this change](https://github.com/almanilsson/ook-translator-v0/tree/2af64d64ef6ce975b4e4bc0b3feeabbc4126aad4)
 
 #### 2.2.11 Define Input/Output Schemas 
 
@@ -266,7 +266,7 @@ It becomes unclear what the code expects, returns and how to adapt it to new dat
 **How to solve it**
 Define expected inputs and outputs (the type, what it is used for and what it contains) in each functions docstring and describe their structure in your documentation. Formally describe input and output data, for example using JSON schema.
 
-[State of repository after implementing this change](http://github.com/almanilsson/ook-translator-v0/tree/312d0e78666317bda54f61df26c10fa2b35e6446)
+[State of example repository after implementing this change](http://github.com/almanilsson/ook-translator-v0/tree/312d0e78666317bda54f61df26c10fa2b35e6446)
 
 #### 2.2.12 Implement and Automate Software Testing 
 
@@ -281,7 +281,7 @@ When changes are made, new errors can go unnoticed and it is hard to confirm tha
 **How to solve it**
 Add simple unit tests for key functions using a testing framework such as PyTest. Preferably, set up automated testing with GitHub Actions so tests run automatically when the code is updated and notifies you if something is wrong.
 
-[State of repository after implementing this change](http://github.com/almanilsson/ook-translator-v0/tree/4ce2be19278c561968111cc1e51caa79a964e65b)
+[State of example repository after implementing this change](http://github.com/almanilsson/ook-translator-v0/tree/4ce2be19278c561968111cc1e51caa79a964e65b)
 
 #### 2.2.13 Define Governance for Long-Term Maintenance 
 
@@ -296,7 +296,7 @@ Users may assume the software is actively maintained and safe to build upon or i
 **How to solve it**
 Decide and communicate (for example, in the `README.md`) whether the code will be maintained. If it will be, specify who is responsible and how maintenance will be handled.
 
-[State of repository after implementing this change](https://github.com/almanilsson/ook-translator-v0/tree/ff67b8c6205fd87c5ffa0f9b60853871747f16d3)
+[State of example repository after implementing this change](https://github.com/almanilsson/ook-translator-v0/tree/ff67b8c6205fd87c5ffa0f9b60853871747f16d3)
 
 #### 2.2.14 Structure Your Code for Reuse (Bonus point - not yet in checklist)
 
@@ -312,7 +312,7 @@ The software may be harder to integrate into other workflows or pipelines. Users
 **How to solve it**
 Organise the code into logical modules or functions and define a clear way for users to interact with it, such as a command line interface or callable functions.
 
-[State of repository after implementing this change](https://github.com/almanilsson/ook-translator-v0/tree/7665a27a168598c642610d7f4aa673bdc9e07d42)
+[State of example repository after implementing this change](https://github.com/almanilsson/ook-translator-v0/tree/7665a27a168598c642610d7f4aa673bdc9e07d42)
 
 
 #### 2.2.15 Use a Clear Versioning Scheme 
