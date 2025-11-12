@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: 'DDLS Annual Conference 2025 Workshop 2: Open Source Software for Research – Sharing Code and Software the Right Way'
+message: >-
+  If you use this software, please cite it using the instructions in the GitHub repository, or the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Alma
+    family-names: Nilsson
+    affiliation: SciLifeLab, Sweden
+    orcid: 0009-0004-8501-642X
+repository-code: 'https://github.com/almanilsson/sharing-code-the-right-way'
+doi: ''
+abstract: >-
+  A tutorial in increasing the openness of your GitHub repository.
+keywords:
+  - Open Source
+  - Open Science
+  - FAIR
+license: "CC-BY-4.0"
