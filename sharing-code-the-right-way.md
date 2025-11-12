@@ -38,7 +38,7 @@ Since the checklist can be a little too general and hard to understand, we’ll 
 
 ### 2.1 Highest priority points
 
-#### 2.1.1 Host Code in a Public Version-Controlled Repository/ The code isnt public or version controlled 
+#### 2.1.1 Host Code in a Public Version-Controlled Repository
 
 > **Host Code in a Public Version-Controlled Repository:** Host your code on platforms like GitHub, GitLab, or CodeBerg to track development history, enable tagged versioned releases, improve reusability, and support collaboration.
 
