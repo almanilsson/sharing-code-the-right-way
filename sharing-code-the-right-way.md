@@ -66,9 +66,9 @@ The repository has no licence file that states how the code can be used, shared,
 If your code has no licence, it’s not legally reusable, even if it is accessible. 
 
 **How to solve it:**
-Add a `LICENSE` file to your repository. Use a permissive licence such as the MIT Licence (SciLifeLab’s standard) by either selecting **“Add file → Choose a license template”** on GitHub or copying the official licence text from its website and pasting it into your `LICENSE` file.
+Add a `LICENSE` file to your repository. Use a permissive licence such as the MIT Licence (SciLifeLab’s standard) by either selecting **“Add file → Choose a license template”** on GitHub or copying the official licence legal text from its website and pasting it into your `LICENSE` file.
 
-If your repo includes other materials like text or figures, add a separate licence for those, for example, *CC BY 4.0*. If you mix different types (code, data, text), list each licence clearly in your `README` and specify what applies to what.
+If your repo includes other materials like text or figures, add a separate licence for those, for example, *CC BY 4.0* (4.0 is not available through GitHub so you need to copy and paste the legal text from [CC BY 4.0 legal text](https://creativecommons.org/licenses/by/4.0/legalcode.txt) into your LICENCE file). Name your code license LICENCE-CODE and your content licence LICENCE-CONTENT. If you mix different types (code, data, text), list each licence clearly in your `README` and specify what applies to what. 
 
 [State of example repository after implementing this change](http://github.com/almanilsson/ook-translator-v0/tree/383408cfc6771354948fe869f777a3122cee9f80) 
 
