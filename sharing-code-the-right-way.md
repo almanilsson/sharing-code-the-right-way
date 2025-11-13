@@ -7,7 +7,7 @@ Most of us know open source as "a good thing we should be participating in", and
 
 What’s less clear is *how* to apply these principles. How to go beyond simply uploading code to GitHub and actually make it understandable and even reusable. In other words, how to share code *the right way*.
 
-This tutorial will take you through how to apply the [Open Software Checklist](https://github.com/ScilifelabDataCentre/open-science-checklists), developed by the SciLifeLab Open Science Team.
+This tutorial will take you through how to apply the [Open Software Checklist](https://github.com/ScilifelabDataCentre/open-science-checklists), developed by the SciLifeLab Open Science Team. [Task 1](#task-1-identify-problems-although-you-can-jump-to-task-2-if-you-are-eager-to-begin) prompts you to look through what points of the checklist your repository fulfills. [Task 2](#task-2-solve-problems) assumes your code fulfills none of the checklist points, and guides you through how to apply them to your repo. You can jump directly to Task 2 if you want to get on with the solving! 
 
 ## The Example Repository
 
@@ -19,7 +19,7 @@ Many researchers hesitate to share their code because they feel it’s “not go
 
 In this tutorial we want you to start working on the openness of your repository, that might involve implementing two or three of the checklist points, but we do not by any means expect you to do it all. In fact, not every checklist point will apply to your repository. For example, modular code might not be relevant if you’re sharing workflows. So don’t worry if many boxes stay unchecked.
 
-Start by looking through your repository and going over the [Open Software Checklist](https://github.com/ScilifelabDataCentre/open-science-checklists/blob/main/open_software_checklist.md) point by point. Note which items are fully, partially, or not at all fulfilled. Based on what we’ve discussed [the intro presentation](resources/tutorial_introduction_20251113.pdf)) about *why* to do open source, identify the areas that could affect the openness or FAIRness of your code.
+Task 2 assumes your repository does not fulfill any of the checklist points and you can move there immediately and simply apply the ones you dont yet fulfill. Or, you can start by looking through your repository and going over the [Open Software Checklist](https://github.com/ScilifelabDataCentre/open-science-checklists/blob/main/open_software_checklist.md) point by point to see which ones are fulfilled. Note which items are fully, partially, or not at all fulfilled. Based on what we’ve discussed [the intro presentation](resources/tutorial_introduction_20251113.pdf)) about *why* to do open source, identify the areas that could affect the openness or FAIRness of your code.
 
 ## Task 2: Solve Problems
 Now let’s solve the checklist points one by one, in order of priority (according to me), and fix them. Please note that the provided solutions are not the only options, but have been made simple and direct so you can get them done quickly.
