@@ -92,7 +92,7 @@ You can create the file by clicking pre-made sections in [readme.so](https://rea
 
 #### 2.2.1 Archive and Assign a Persistent Identifier
 
-> **Archive and Assign a Persistent Identifier:**  Ensure long-term preservation by depositing a snapshot of a specific software release (e.g., v1.0.0) in repositories that assign a PID such as [Zenodo](https://zenodo.org/), [Software Heritage](https://www.softwareheritage.org/), or your local institutional repository (e.g., [SciLifeLab Data Repository](https://figshare.scilifelab.se/)). This complements hosting code in a public repository by providing a fixed reference that can be cited in publications and matched to data and results.
+> **Archive and Assign a Persistent Identifier:**  Ensure long-term preservation by depositing a snapshot of a specific software release (e.g., v1.0.0) in repositories that assign a PID such as [Zenodo](https://zenodo.org/), [Software Heritage](https://www.softwareheritage.org/), or your local institutional repository (e.g., [SciLifeLab Data Repository](https://figshare.scilifelab.se/)). This complements hosting code in a public development repository by providing a fixed reference that can be cited in publications and matched to data and results.
 
 This is a high priority item since it ensures your code can be persistently linked and cited. However, it does not need to be done during the tutorial. It is best completed once todays openness updates are done.
 
@@ -124,7 +124,7 @@ Add a `CITATION.cff` file including title, authors, version, licence, (DOI, if a
 
 #### 2.2.3 Use Package Managers (and Manage Them Wisely): 
 
-> **Use Package Managers:** Specify dependencies via [package managers](https://en.wikipedia.org/wiki/List_of_software_package_management_systems) (e.g., pip, npm, mamba) for better compatibility and reproducibility. Include a dependency file (e.g. `requirements.txt`, `environment.yml`, or `package.json`) to allow others to easily install the necessary packages. Consider adding a lock file to ensure exact versions are used across environments.
+> ***Use Package Managers:** Specify dependencies via [package managers](https://en.wikipedia.org/wiki/List_of_software_package_management_systems) (e.g., pip, mamba) for better compatibility and reproducibility. Include a dependency file (e.g. `requirements.txt`, `environment.yml`) to allow others to easily install the necessary packages, and specify package versions to ensure the same versions are used across environments.
 
 > **Manage Dependencies Wisely:** Use well-maintained libraries and avoid obsolete and redundant dependencies  so the software continues to work as intended over time.
 
@@ -221,7 +221,7 @@ Enable GitHub Issues and add a first issue. Use labels like “bug,” “enhanc
 
 #### 2.2.9 Set Up Contributing Guidelines 
 
-> **Set Up Contributing Guidelines:** Create a `CONTRIBUTING.md` file to guide community contributions. Credit them according to “Ensure Proper Credit” above.
+> **Set Up Contributing Guidelines:** Create a `CONTRIBUTING.md` file to guide community contributions.
 
 **What needs to be addressed:**
 The repository does not include a `CONTRIBUTING.md` file describing how others can report issues, suggest changes, or contribute code.
@@ -296,7 +296,6 @@ Decide and communicate (for example, in the `README.md`) whether the code will b
 
 #### 2.2.14 Structure Your Code for Reuse (Bonus point - not yet in checklist)
 
-TODO: perhaps not include?
 > **Structure Your Code for Reuse:** Organise your software in a logical, modular way with well-defined user interaction (for example, a CLI), so it can be easily reused or extended, for example in a pipeline. This can be done by creating a package, module, or library depending on your programming language.
 
 **What needs to be addressed:**
