@@ -27,4 +27,5 @@ This repository is licensed under [CC BY 4.0](LICENSE).
 
 ## Citing this Resource
 
-If you wish to cite this tutorial, please wait until it has been uploaded to Figshare (after the workshop) and assigned a DOI.
+To cite this tutorial, please use the Zenodo record as follows (APA):
+*Nilsson, A. (2025, November 3). Tutorial: Open Source Software for Research - Sharing Code the Right Way. DDLS Annual Conference 2025, Uppsala Konsert & Kongress Vaksala torg 1 Uppsala, 75331 Sweden. Zenodo. [https://doi.org/10.5281/zenodo.18743551](https://doi.org/10.5281/zenodo.18743551)*
