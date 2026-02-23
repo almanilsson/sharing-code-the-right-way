@@ -2,7 +2,7 @@
 
 Tutorial from the **DDLS 2025 workshop** on improving the FAIRness and openness of research code on GitHub.
 
-This tutorial applies the [Open Software Checklist](https://github.com/ScilifelabDataCentre/open-science-checklists/blob/main/open_software_checklist.md) ([DOI](https://doi.org/10.17044/scilifelab.29086775)) to improve the openness of your repository.
+This tutorial applies the [SciLifeLab Open Software Checklist](https://github.com/ScilifelabDataCentre/open-science-checklists/blob/main/open_software_checklist.md) ([DOI](https://doi.org/10.17044/scilifelab.29086775)) to improve the openness of your repository.
 
 Each point is broken down into what needs to be addressed, why it matters, and how to solve it.
 To make this concrete, every point has been applied to an example repository, the [ook-translator](https://github.com/almanilsson/ook-translator). The “ook-translator” is a mock application that translates between human and orangutan language, inspired by Terry Pratchetts Discworld Librarian who only speaks in “ook” sounds (not relevant for the tutorial, don't worry).
